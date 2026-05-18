@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>luiscode2 - Servicios de Seguridad Informática</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">luiscode2</div>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                <li><a href="#portafolio" class="nav-link">Portafolio</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Seguridad Informática de Clase Mundial</h1>
+            <p>Protege tu infraestructura con pruebas de penetración y auditorías de seguridad profesionales</p>
+            <a href="#contacto" class="cta-button">Solicitar Consulta</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="services-grid">
+                <!-- Pentesting -->
+                <div class="service-card">
+                    <div class="service-icon">🔍</div>
+                    <h3>Pruebas de Penetración</h3>
+                    <p>Identificamos vulnerabilidades en tu infraestructura antes que los atacantes. Pruebas exhaustivas en aplicaciones web, redes y sistemas.</p>
+                    <ul class="service-features">
+                        <li>✓ Testing de aplicaciones web</li>
+                        <li>✓ Análisis de redes</li>
+                        <li>✓ Pruebas de infraestructura</li>
+                        <li>✓ Reportes detallados</li>
+                    </ul>
+                </div>
+
+                <!-- Security Audit -->
+                <div class="service-card">
+                    <div class="service-icon">📋</div>
+                    <h3>Auditorías de Seguridad</h3>
+                    <p>Evaluación completa de tu postura de seguridad. Análisis de políticas, configuraciones y cumplimiento normativo.</p>
+                    <ul class="service-features">
+                        <li>✓ Evaluación de infraestructura</li>
+                        <li>✓ Análisis de cumplimiento</li>
+                        <li>✓ Gestión de riesgos</li>
+                        <li>✓ Plan de remediación</li>
+                    </ul>
+                </div>
+
+                <!-- Training -->
+                <div class="service-card">
+                    <div class="service-icon">🎓</div>
+                    <h3>Capacitación en Seguridad</h3>
+                    <p>Forma a tu equipo en las mejores prácticas de ciberseguridad. Desde principios básicos hasta técnicas avanzadas.</p>
+                    <ul class="service-features">
+                        <li>✓ Talleres personalizados</li>
+                        <li>✓ Certificaciones en hacking ético</li>
+                        <li>✓ Conciencia de seguridad</li>
+                        <li>✓ Laboratorios prácticos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portafolio" class="portfolio">
+        <div class="container">
+            <h2>Casos de Éxito</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <h4>Empresa Fintech</h4>
+                    <p>Identificación de 12 vulnerabilidades críticas en plataforma de pagos. Implementación de soluciones de seguridad.</p>
+                    <span class="tag">Pentesting</span>
+                </div>
+                <div class="portfolio-item">
+                    <h4>Empresa de E-commerce</h4>
+                    <p>Auditoría completa de seguridad. Mejora de postura de seguridad y cumplimiento PCI-DSS.</p>
+                    <span class="tag">Auditoría</span>
+                </div>
+                <div class="portfolio-item">
+                    <h4>Banco Regional</h4>
+                    <p>Capacitación en seguridad ofensiva para equipo de IT. Desarrollo de programa de pruebas internas.</p>
+                    <span class="tag">Capacitación</span>
+                </div>
+                <div class="portfolio-item">
+                    <h4>Startup Tech</h4>
+                    <p>Análisis de seguridad de aplicación web. Identificación de OWASP Top 10 vulnerabilities.</p>
+                    <span class="tag">Pentesting</span>
+                </div>
+                <div class="portfolio-item">
+                    <h4>Gobierno Local</h4>
+                    <p>Auditoría de infraestructura crítica. Plan de remediación con roadmap de 12 meses.</p>
+                    <span class="tag">Auditoría</span>
+                </div>
+                <div class="portfolio-item">
+                    <h4>Consultora Internacional</h4>
+                    <p>Programa de capacitación en seguridad ofensiva. Certificación interna de penetration testers.</p>
+                    <span class="tag">Capacitación</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="contact-content">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Tu correo electrónico" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Empresa">
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="">Selecciona un servicio</option>
+                            <option value="pentesting">Pruebas de Penetración</option>
+                            <option value="auditoria">Auditorías de Seguridad</option>
+                            <option value="capacitacion">Capacitación</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Cuéntanos sobre tu proyecto..." rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Enviar Mensaje</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    <p><strong>Email:</strong> hello@luiscode2.com</p>
+                    <p><strong>Teléfono:</strong> +1 (555) 123-4567</p>
+                    <p><strong>Ubicación:</strong> Ciudad de México, México</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 luiscode2. Todos los derechos reservados. Seguridad Ética y Responsable.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
